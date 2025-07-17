@@ -1,18 +1,32 @@
-## Getting Started
+📚 Desafios de List – Santander Bootcamp | DIO
+Este repositório contém os desafios práticos propostos durante as aulas do Santander Bootcamp promovido pela Digital Innovation One (DIO), com foco em Collections em Java, especialmente na interface List e sua implementação com ArrayList.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+🧠 Objetivo dos Desafios
+Praticar a criação e manipulação de listas em Java
 
-## Folder Structure
+Compreender o funcionamento da interface List e suas operações
 
-The workspace contains two folders by default, where:
+Criar classes orientadas a objetos como Tarefa, Livro, etc.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Desenvolver habilidades com métodos como add, remove, contains, size, clear, isEmpty, entre outros
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+📌 Conteúdo Abordado
+List<T> com ArrayList
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Criação de classes e objetos (Tarefa, Livro, etc.)
 
-## Dependency Management
+Métodos de manipulação de listas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Uso de for, foreach, removeIf, etc.
+
+Boas práticas com Java
+
+🛠️ Tecnologias Utilizadas
+Java 8+
+
+IDEs como IntelliJ IDEA, Eclipse ou VS Code
+
+Terminal (javac/java)
+
+📅 Sobre o Bootcamp
+Este projeto foi desenvolvido como parte do Santander Bootcamp - Backend Java, oferecido em parceria com a DIO, com foco em capacitação profissional para o mercado de tecnologia.
