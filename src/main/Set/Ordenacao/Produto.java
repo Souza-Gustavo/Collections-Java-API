@@ -1,6 +1,9 @@
 package Main.Set.Ordenacao;
 
-public class Produto implements Comparable<Produto>
+import java.util.Comparator;
+import java.util.Objects;
+
+public class Produto implements Comparable<Produto> {
     //Atributos
 
     private long codigo;
@@ -20,7 +23,7 @@ public class Produto implements Comparable<Produto>
 
     @Override
     public int compareTo(Produto p) {
-        return nome.compareToIgnoreCase(p.getNome);
+        return nome.compareToIgnoreCase(p.getNome());
     }
 
     public long getCodigo() {
@@ -68,6 +71,6 @@ class ComparatorPorPreco implements Comparator<Produto> {
 
     @Override
     public int compare(Produto p1, Produto p2) {
-        return double.compare(p1.getPreco(), p2.getPreco());
+        return Double.compare(p1.getPreco(), p2.getPreco());
     }
 }

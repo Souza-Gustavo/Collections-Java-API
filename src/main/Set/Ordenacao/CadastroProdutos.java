@@ -2,6 +2,7 @@ package Main.Set.Ordenacao;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class CadastroProdutos {
     //Atributos

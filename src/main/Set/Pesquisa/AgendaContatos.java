@@ -21,10 +21,10 @@ public class AgendaContatos {
         System.out.println(contatoSet);
     }
 
-    public Set<Contato>pesquisarPorNome(Strin nome) {
+    public Set<Contato>pesquisarPorNome(String nome) {
         Set<Contato> contatosPorNome = new HashSet<>();
         for(Contato c : contatoSet) {
-            if(c.getNome().startswith(nome)) {
+            if(c.getNome().startsWith(nome)) {
                 contatosPorNome.add(c);
             }
         }

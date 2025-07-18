@@ -1,5 +1,7 @@
 package Main.Set.Pesquisa;
 
+import java.util.Objects;
+
 public class Contato {
     //Atributos
     private String nome;
@@ -27,7 +29,7 @@ public class Contato {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof Contato contato)) return false;
-        return Objects.equals(getNome(), contato.getnome();
+        return Objects.equals(getNome(), contato.getNome());
     }
 
     @Override
