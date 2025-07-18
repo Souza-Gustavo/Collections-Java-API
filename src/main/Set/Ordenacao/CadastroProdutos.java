@@ -26,7 +26,24 @@ public class CadastroProdutos {
 
     public Set<Produto> exibirPorPreco() {
         Set<Produto> produtosPorPreco = new TreeSet<>(new ComparatorPorPreco());
-        produtoSet.addAll(produtoSet);
+        produtosPorPreco.addAll(produtoSet);
         return produtosPorPreco;
+    }
+
+
+    public static void main(String[] args) {
+        CadastroProdutos cadastroProdutos = new CadastroProdutos();
+
+        cadastroProdutos.adicionarProduto(1L, "Produto 5", 15D, 5);
+        cadastroProdutos.adicionarProduto(2L, "Produto 6", 20D, 10);
+        cadastroProdutos.adicionarProduto(1L, "Produto 3", 10D, 2);
+        cadastroProdutos.adicionarProduto(9L, "Produto 9", 2D, 2);
+
+
+        System.out.println(cadastroProdutos.produtoSet);
+
+        System.out.println(cadastroProdutos.exibirProdutosPorNome());
+
+        System.out.println(cadastroProdutos.exibirPorPreco());
     }
 }
