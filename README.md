@@ -1,32 +1,47 @@
-## 📚 Desafios de List – Santander Bootcamp | DIO
-Este repositório contém os desafios práticos propostos durante as aulas do Santander Bootcamp promovido pela Digital Innovation One (DIO), com foco em Collections em Java, especialmente na interface List e sua implementação com ArrayList.
+# 📚 Santander Bootcamp 2025 - Collections em Java (DIO)
 
-## 🧠 Objetivo dos Desafios
-Praticar a criação e manipulação de listas em Java
+Este repositório contém anotações, exemplos de código e exercícios resolvidos do módulo **Collections** em Java, parte do **Santander Bootcamp 2025** promovido pela [Digital Innovation One (DIO)](https://web.dio.me).
 
-Compreender o funcionamento da interface List e suas operações
+## 🧠 Sobre o Módulo
 
-Criar classes orientadas a objetos como Tarefa, Livro, etc.
-
-Desenvolver habilidades com métodos como add, remove, contains, size, clear, isEmpty, entre outros
+O módulo de **Collections** aborda as principais interfaces, implementações e boas práticas para trabalhar com coleções de dados em Java, como listas, conjuntos e mapas. É um conteúdo essencial para quem deseja escrever código mais eficiente, organizado e de fácil manutenção.
 
 ## 📌 Conteúdo Abordado
-List<T> com ArrayList
 
-Criação de classes e objetos (Tarefa, Livro, etc.)
+- Introdução às Collections
+- Listas (`List`, `ArrayList`, `LinkedList`)
+- Conjuntos (`Set`, `HashSet`, `LinkedHashSet`, `TreeSet`)
+- Mapas (`Map`, `HashMap`, `TreeMap`, `LinkedHashMap`)
+- Ordenação de objetos com `Comparable` e `Comparator`
+- Boas práticas no uso de collections
+- Exercícios práticos com foco em lógica e estrutura de dados
 
-Métodos de manipulação de listas
+## 📁 Estrutura do Repositório
 
-Uso de for, foreach, removeIf, etc.
+📦collections-java
+┣ 📂src
+┃ ┣ 📂list
+┃ ┃ ┣ 📜ExercicioList.java
+┃ ┣ 📂set
+┃ ┃ ┣ 📜ExercicioSet.java
+┃ ┣ 📂map
+┃ ┃ ┣ 📜ExercicioMap.java
+┣ 📜README.md
 
-Boas práticas com Java
+## 📝 Exercícios
+
+Durante o módulo, foram propostos desafios para praticar o uso das diferentes estruturas:
+
+- 🔹 **Listas**: ordenação de números, cadastro de livros, manipulação de strings.
+- 🔹 **Conjuntos**: remoção de duplicatas, verificação de existência, interseção entre sets.
+- 🔹 **Mapas**: contagem de palavras, organização de dados por chave/valor, ordenação por valores.
 
 ## 🛠️ Tecnologias Utilizadas
-Java 8+
 
-IDEs como IntelliJ IDEA, Eclipse ou VS Code
+- Java 17+
+- IDE IntelliJ VS Code
+- JDK da Oracle / OpenJDK
 
-Terminal (javac/java)
 
 ## 📅 Sobre o Bootcamp
 Este projeto foi desenvolvido como parte do Santander Bootcamp - Backend Java, oferecido em parceria com a DIO, com foco em capacitação profissional para o mercado de tecnologia.
