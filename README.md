@@ -16,18 +16,6 @@ O módulo de **Collections** aborda as principais interfaces, implementações e
 - Boas práticas no uso de collections
 - Exercícios práticos com foco em lógica e estrutura de dados
 
-## 📁 Estrutura do Repositório
-
-📦collections-java
-┣ 📂src
-┃ ┣ 📂list
-┃ ┃ ┣ 📜ExercicioList.java
-┃ ┣ 📂set
-┃ ┃ ┣ 📜ExercicioSet.java
-┃ ┣ 📂map
-┃ ┃ ┣ 📜ExercicioMap.java
-┣ 📜README.md
-
 ## 📝 Exercícios
 
 Durante o módulo, foram propostos desafios para praticar o uso das diferentes estruturas:
